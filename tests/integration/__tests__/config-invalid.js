@@ -72,6 +72,7 @@ describe("resolves external configuration from package.json", () => {
   });
 });
 
+
 // Tests below require --parser to prevent an error (no parser/filepath specified)
 
 describe("show warning with unknown option", () => {

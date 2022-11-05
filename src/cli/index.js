@@ -74,6 +74,7 @@ async function main(rawArguments, logger) {
     return;
   }
 
+
   if (context.argv.help !== undefined) {
     printToScreen(
       typeof context.argv.help === "string" && context.argv.help !== ""
